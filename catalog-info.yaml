@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible8
+  description: create-a-vm
+  annotations:
+    backstage.io/kubernetes-id: ansible8
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/ansible8
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
